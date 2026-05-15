@@ -117,8 +117,12 @@ const HeroSection = () => {
         </p>
 
         <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
-          <a
-            href={`mailto:${data.email}`}
+          <button
+            onClick={() =>
+              document
+                .getElementById("contact")
+                ?.scrollIntoView({ behavior: "smooth" })
+            }
             style={{
               padding: "14px 32px",
               background: "#a78bfa",
@@ -136,6 +140,32 @@ const HeroSection = () => {
             onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
           >
             HIRE ME →
+          </button>
+          <a
+            href="/SHRABANA_GOSWAMI.pdf"
+            download="Shrabana_Goswami_Resume.pdf"
+            style={{
+              padding: "14px 32px",
+              background: "transparent",
+              color: "#a78bfa",
+              fontFamily: "'Courier New', monospace",
+              fontSize: 13,
+              letterSpacing: 2,
+              border: "1px solid #a78bfa50",
+              cursor: "pointer",
+              textDecoration: "none",
+              transition: "all 0.2s",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "#a78bfa15";
+              e.currentTarget.style.borderColor = "#a78bfa";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "transparent";
+              e.currentTarget.style.borderColor = "#a78bfa50";
+            }}
+          >
+            RESUME ↓
           </a>
           <a
             href={`https://${data.github}`}

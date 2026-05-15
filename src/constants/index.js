@@ -2,11 +2,10 @@ export const data = {
   name: "Shrabana Goswami",
   tagline: "Frontend Engineer",
   roles: [
-    "React Engineer",
-    "Next.js Developer",
+    "Frontend Engineer",
+    "MERN Stack Developer",
     "Performance Optimizer",
     "UI Architect",
-    "Frontend Engineer",
   ],
   email: "shrabanagoswami8@gmail.com",
   phone: "9830564513",
@@ -14,7 +13,7 @@ export const data = {
   linkedin: "linkedin.com/in/shrabana-goswami-363219236",
   github: "github.com/ShrabanaG",
   summary:
-    "3.5+ years crafting responsive, performant web applications. I turn product requirements and design mockups into production-grade UIs with a relentless focus on Core Web Vitals, scalable architecture, and clean code.",
+    "4 years crafting responsive, performant web applications. I turn product requirements and design mockups into production-grade UIs with a relentless focus on Core Web Vitals, scalable architecture, and clean code.",
   skills: {
     Frontend: [
       "React.js",
@@ -105,7 +104,7 @@ export const data = {
     {
       company: "Aeonix Research & Innovations LLP",
       role: "Frontend Engineer",
-      period: "Jun 2022 – May 2023",
+      period: "Dec 2021 – May 2023",
       location: "Kolkata, WB",
       color: "#f472b6",
       bullets: [
